@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="7.0.3" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.14" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.3">
+        <PrivateAssets>all</PrivateAssets>
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      </PackageReference>
+      <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.12" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="Views\ToDo\Create.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\ToDo\Delete.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\ToDo\Details.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\ToDo\Edit.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\ToDo\Index.cshtml" />
+    </ItemGroup>
+
+<!--    <ItemGroup>-->
+<!--      <_ContentIncludedByDefault Remove="Pages\Create.cshtml" />-->
+<!--      <_ContentIncludedByDefault Remove="Pages\Delete.cshtml" />-->
+<!--      <_ContentIncludedByDefault Remove="Pages\Details.cshtml" />-->
+<!--      <_ContentIncludedByDefault Remove="Pages\Edit.cshtml" />-->
+<!--      <_ContentIncludedByDefault Remove="Pages\Index.cshtml" />-->
+<!--      <_ContentIncludedByDefault Remove="Pages\_ValidationScriptsPartial.cshtml" />-->
+<!--    </ItemGroup>-->
+
+</Project>
